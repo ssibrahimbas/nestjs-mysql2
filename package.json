@@ -1,0 +1,42 @@
+{
+  "name": "@ssibrahimbas/nestjs-mysql2",
+  "version": "0.0.2",
+  "description": "mysql2 module and service for nest",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "mysql2",
+    "nestjs",
+    "typescript",
+    "sql"
+  ],
+  "homepage": "https://github.com/ssibrahimbas/nestjs-mysql2/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/ssibrahimbas/nestjs-mysql2/issues",
+    "email": "info@ssibrahimbas.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssibrahimbas/nestjs-mysql2.git"
+  },
+  "author": "Sami Salih İBRAHİMBAŞ",
+  "license": "MIT",
+  "scripts": {
+    "clear": "del-cli ./build/*",
+    "build": "npm run clear && tsc"
+  },
+  "dependencies": {
+    "@nestjs/common": "^8.4.6",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "typescript": "^4.7.3"
+  }
+}
